@@ -1,0 +1,21 @@
+.header {
+  height: 155px;
+  padding-left: 90px;
+}
+
+.nav_list {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+.cover_container {
+  color: #fff;
+}
+
+.cover_img {
+  height: 710px;
+}
+
+.nav_link {
+  padding-right: 105px;
+}

@@ -1,0 +1,27 @@
+:root {
+  /* --------- PALETA DE CORES -----------*/
+
+  --light-background: rgba(250, 74, 12, 1);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
