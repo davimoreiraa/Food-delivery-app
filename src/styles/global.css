@@ -1,7 +1,8 @@
 :root {
   /* --------- PALETA DE CORES -----------*/
 
-  --light-background: rgba(250, 74, 12, 1);
+  --orange: rgba(250, 74, 12, 1);
+  --secont-text: rgba(115, 115, 115, 1);
 }
 
 html,

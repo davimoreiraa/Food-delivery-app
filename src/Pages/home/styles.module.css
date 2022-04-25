@@ -5,7 +5,12 @@
 
 .nav_list {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin-bottom: 0;
+}
+
+.nav_link {
+  padding-right: 105px;
 }
 
 .cover_container {
@@ -16,6 +21,77 @@
   height: 710px;
 }
 
-.nav_link {
-  padding-right: 105px;
+.food_app {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.cover_title {
+  font-size: 58px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.cover_tutorial {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.playstore_btn, .app_btn {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 13px 55px;
+  border: none;
+  border-radius: 30px;  
+}
+
+.playstore_btn {
+  background-color: var(--orange);
+  margin-right: 30px;
+}
+
+.app_btn {
+  border: #fff solid 1px;
+  background-color: transparent;
+}
+
+.line {
+  width: 884px;
+  height: 1px;
+  margin-bottom: 60px;
+  margin-top: 453px;
+  border-color: rgba(228, 228, 228, 1);
+}
+
+.section_title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.instruction, .tutorial {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.instruction {
+  color: var(--orange);
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.tutorial {
+  font-size: 40px;
+  margin-bottom: 27px;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--secont-text);
 }
