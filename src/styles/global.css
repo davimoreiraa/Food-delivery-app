@@ -2,7 +2,9 @@
   /* --------- PALETA DE CORES -----------*/
 
   --orange: rgba(250, 74, 12, 1);
-  --secont-text: rgba(115, 115, 115, 1);
+  --second-text: rgba(115, 115, 115, 1);
+  --text: rgba(37, 43, 66, 1);
+  ;
 }
 
 html,

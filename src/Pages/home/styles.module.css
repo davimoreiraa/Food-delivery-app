@@ -1,6 +1,10 @@
+/* ---------------------- HEADER ----------------------*/
 .header {
   height: 155px;
-  padding-left: 90px;
+}
+
+.navigation {
+  margin-right: 50px;
 }
 
 .nav_list {
@@ -9,11 +13,18 @@
   margin-bottom: 0;
 }
 
-.nav_link {
-  padding-right: 105px;
+.link {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
 }
 
-.cover_container {
+.link:hover {
+  color: var(--orange);
+}
+
+/* ---------------------- COVER ----------------------*/
+.container {
   color: #fff;
 }
 
@@ -37,6 +48,11 @@
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  margin-top: 25px;
+}
+
+.cover_btn_container {
+  margin-top: 50px;
 }
 
 .playstore_btn, .app_btn {
@@ -59,11 +75,15 @@
   background-color: transparent;
 }
 
+.phone {
+  top: 110%;
+}
+/* ---------------------- MAIN ----------------------*/
 .line {
   width: 884px;
   height: 1px;
   margin-bottom: 60px;
-  margin-top: 453px;
+  margin-top: 543px;
   border-color: rgba(228, 228, 228, 1);
 }
 
@@ -93,5 +113,98 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 24px;
-  color: var(--secont-text);
+  color: var(--second-text);
+}
+
+.middle_section {
+  padding-left: 200px;
+}
+
+.content {
+  padding-right: 130px;
+}
+
+.bread_img {
+  height: 516px;
+}
+
+.download_app {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.infos {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.download_btn {
+  border-radius: 10px;
+  padding: 18px 31px;
+  font-size: 16px;
+}
+/* ---------------------- FOOTER ----------------------*/
+.footer {
+  padding: 36px 115px;
+}
+
+.copyright_text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* ----------------------MEDIA QUERY----------------------*/
+@media only screen and (max-width: 1015px) {
+  .cover_content {
+    width: 90%;
+  }
+  .img {
+    width: 50%;
+  }
+
+  .line {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    color: var(--text);
+  }
+
+  .food_app {
+    font-size: 16px;
+    color: var(--second-text);
+  }
+
+  .cover_title {
+    font-size: 36px;
+  }
+
+  .cover_tutorial {
+    color: var(--second-text);  
+  }
+
+  .playstore_btn {
+    margin-right: 0 !important;
+  }
+
+  .app_btn {
+    border: var(--orange) solid 1px;
+    color: var(--orange);
+    margin-top: 20px;
+  }
+
+
+  .content {
+    padding-right: 0;
+  }
+
+  .middle_section {
+    padding-left: 0;
+  }
 }
