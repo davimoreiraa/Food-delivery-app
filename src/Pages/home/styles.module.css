@@ -24,7 +24,7 @@
 }
 
 /* ---------------------- COVER ----------------------*/
-.container {
+.container, .white_text {
   color: #fff;
 }
 
@@ -62,7 +62,8 @@
   color: #fff;
   padding: 13px 55px;
   border: none;
-  border-radius: 30px;  
+  border-radius: 30px; 
+  height: 67px; 
 }
 
 .playstore_btn {
@@ -74,23 +75,28 @@
   border: #fff solid 1px;
   background-color: transparent;
 }
-
-.phone {
-  top: 110%;
-}
 /* ---------------------- MAIN ----------------------*/
 .line {
   width: 884px;
   height: 1px;
   margin-bottom: 60px;
-  margin-top: 543px;
+  margin-top: 54px;
   border-color: rgba(228, 228, 228, 1);
+}
+
+.section {
+  margin-bottom: 110px;
+}
+
+.last_section {
+  margin-bottom: 90px;  
 }
 
 .section_title {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 44px;
+  margin-bottom: 40px;
 }
 
 .instruction, .tutorial {
@@ -116,14 +122,6 @@
   color: var(--second-text);
 }
 
-.middle_section {
-  padding-left: 200px;
-}
-
-.content {
-  padding-right: 130px;
-}
-
 .bread_img {
   height: 516px;
 }
@@ -144,7 +142,7 @@
 
 .download_btn {
   border-radius: 10px;
-  padding: 18px 31px;
+  padding: auto 31px;
   font-size: 16px;
 }
 /* ---------------------- FOOTER ----------------------*/
@@ -162,18 +160,41 @@
   .cover_content {
     width: 90%;
   }
-  .img {
-    width: 50%;
-  }
-
+  
   .line {
-    width: 600px;
+    width: 630px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 992px) {
+  .margin_top_phone {
+    position: absolute;
+    top: 75%;
+  }
+  .line {
+    margin-top: 514px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo_img {
+    width: 140px;
+  }
+
   .container {
     color: var(--text);
+  }
+
+  .margin_top_phone {
+    margin-top: 550px;
+  }
+
+  .phone {
+    width: 78%;
+  }
+
+  .img_container {
+    margin-bottom: 30px;
   }
 
   .food_app {
@@ -193,18 +214,25 @@
     margin-right: 0 !important;
   }
 
-  .app_btn {
+  .margin_left_btn {
+    margin-left: 20px;
+  }
+
+  .margin_top_app_btn {
     border: var(--orange) solid 1px;
     color: var(--orange);
     margin-top: 20px;
   }
 
-
   .content {
     padding-right: 0;
   }
 
-  .middle_section {
-    padding-left: 0;
+  .footer {
+    padding: 20px !important;
+  }
+
+  .social_container {
+    margin-bottom: 20px;
   }
 }
