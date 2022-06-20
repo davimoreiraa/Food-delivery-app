@@ -50,8 +50,6 @@ npm install
 
 #Execute a aplicação
 npm start
-
-#Assim que o servidor iniciar, você pode acessa-lo
 ```
 
 <hr/>
