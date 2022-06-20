@@ -16,5 +16,24 @@
 <hr />
 <h2>Demo 📷</h2>
 <div display='flex'> 
-  <img width='80%' src='' alt='Gif showing the home page'/>
+  <img width='90%' src='public/readme_pics/home_desktop.gif' alt='Gif showing the home page in desktop mode'/>
+  <img width='50%' src='public/readme_pics/home_mobile.gif' alt='Gif showing the home page in mobile mode'/>
 </div>
+<hr/>
+<h2>Publicação</h2>
+<p align='center' style='font-size:17px'>Check the page at Vercel <a href='https://food-delivery-app-alpha.vercel.app/'>here</a></p>
+<hr/>
+<h2>Frameworks and libraries:</h2>
+<ul style='font-size:17px'>
+  <li>
+    <a href='https://reactjs.org/'>React</a>
+  </li>
+  <li>
+    <a href='https://getbootstrap.com/'>Bootstrap</a> |
+    <a href='https://reactstrap.github.io/?path=/story/home-installation--page'>Reactstrap</a>
+  </li>
+  <li>
+    <a href='https://nextjs.org/'>Next.js</a>
+  </li>
+</ul>
+<hr />
