@@ -22,6 +22,9 @@
 <hr/>
 <h2>Publicação</h2>
 <p align='center' style='font-size:17px'>Check the page at Vercel <a href='https://food-delivery-app-alpha.vercel.app/'>here</a></p>
+<h3 align='center'>
+  🚧 Feature not in building ⛏️ 🚧
+</h3>
 <hr/>
 <h2>Como rodar na sua máquina</h2>
 <h3 style='font-size:16px'>Pré-requisitos:</h3>
