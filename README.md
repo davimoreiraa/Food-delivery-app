@@ -3,7 +3,7 @@
 <h2>Descrição</h2>
 <p style='font-size:16px'>Landing Page de uma empresa fictícia de entrega de comida. O projeto foi feito com intuito de adquirir experiência e complementar o repositório do GitHub.</p>
 <hr />
-<h2>Frameworks and libraries:</h2>
+<h2>Frameworks e bibliotecas:</h2>
 <ul style='font-size:17px'>
   <li>
     <a href='https://reactjs.org/'>React</a>
@@ -23,17 +23,6 @@
 <h2>Publicação</h2>
 <p align='center' style='font-size:17px'>Check the page at Vercel <a href='https://food-delivery-app-alpha.vercel.app/'>here</a></p>
 <hr/>
-<h2>Frameworks and libraries:</h2>
-<ul style='font-size:17px'>
-  <li>
-    <a href='https://reactjs.org/'>React</a>
-  </li>
-  <li>
-    <a href='https://getbootstrap.com/'>Bootstrap</a> |
-    <a href='https://reactstrap.github.io/?path=/story/home-installation--page'>Reactstrap</a>
-  </li>
-</ul>
-<hr />
 <h2>Como rodar na sua máquina</h2>
 <h3 style='font-size:16px'>Pré-requisitos:</h3>
 <p style='font-size:16px'>Para rodar o projeto, é preciso que você tenha as ferramentas <a href='https://git-scm.com/'>Git</a> e <a href='https://nodejs.org/en/'>Node.js</a>. Além de também ser interessante um editor de código, como o <a href='https://code.visualstudio.com/'>VsCode</a>. </p>
