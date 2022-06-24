@@ -17,7 +17,7 @@
 <h2>Demo 📷</h2>
 <div display='flex'> 
   <img width='75%' src='public/readme_pics/home_desktop.gif' alt='Gif showing the home page in desktop mode'/>
-  <img width='35%' src='public/readme_pics/home_mobile.gif' alt='Gif showing the home page in mobile mode'/>
+  <img width='30%' src='public/readme_pics/home_mobile.gif' alt='Gif showing the home page in mobile mode'/>
 </div>
 <hr/>
 <h2>Publicação</h2>
