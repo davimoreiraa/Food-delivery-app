@@ -22,9 +22,6 @@
 <hr/>
 <h2>Publicação</h2>
 <p align='center' style='font-size:17px'>Acesse a página hospedada pelo Vercel <a href='https://food-delivery-app-alpha.vercel.app/'>aqui</a>.</p>
-<h3 align='center'>
-  🚧 Feature in building ⛏️ 🚧
-</h3>
 <hr/>
 <h2>Como rodar na sua máquina</h2>
 <h3 style='font-size:16px'>Pré-requisitos:</h3>
